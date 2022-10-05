@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**********************************GENERAL****************************/
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(192, 192, 192);
+}
+
+ 
+::-webkit-scrollbar-thumb {
+  background:#272615;
+  border-radius: 5px;
+}
+/*********************************************************************/
+
+
+/**************************HEADER.JS************************************/
+@media screen and (max-width: 5500px) {
+  .navigaton1{
+    margin-left: 200px;
+    font-size: 25px;
+    padding: 19px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .navigaton1{
+    margin-left: 190px;
+    font-size: 20px;
+    padding: 22px;
+    z-index: 20;
+
+  }
+}
+
+@media screen and (max-width: 1710px) {
+  .navigaton1{
+    margin-left: 160px;
+    font-size: 21px;
+    padding: 22px;
+    z-index: 20;
+
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .navigaton1{
+    margin-left: 150px;
+    font-size: 20px;
+    padding: 22px;
+    z-index: 20;
+
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .navigaton1{
+    margin-left: 135px;
+    font-size: 19px;
+    padding: 24px;
+    z-index: 20;
+
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .navigaton1{
+    margin-left: 100px;
+    font-size: 19px;
+    padding: 16px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .navigaton1{
+    margin-left: 80px;
+    font-size: 19px;
+    padding: 16px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .navigaton1{
+    margin-left: 60px;
+    font-size: 18px;
+    padding: 16px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .navigaton1{
+    margin-left: 50px;
+    font-size: 17px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .navigaton1{
+    margin-left: 35px;
+    font-size: 16px;
+    z-index: 20;
+  }
+}
+@media screen and (max-width: 1500px) {
+  nav.navcss{
+    height: 83px;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  nav.navcss{
+    height: 75px;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+  }
+}
+
+
+.navigaton1{
+  border-radius: 13px;
+  color: rgb(255, 183, 0);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight:bolder;
+  letter-spacing: 1px;
+  
+}
+
+.navigaton1:hover{
+  text-decoration: none;
+  color: rgb(240, 239, 239);
+  background-color: goldenrod;
+  transition: background-color  0.6s,color 0.6s;
+  letter-spacing: 1px;
+}
+
+nav.navcss{
+  background-color:rgb(48, 48, 48);
+}
+
+@media screen and (max-width: 991px) {
+  .navlinks{
+    background-color: #313131;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+/*******************************************************************************/
+
+
+
+/****************************** ABOUTUS.JS *****************************************/
+
+@media screen and (min-width: 1550px) {
+  div.forbackground{
+    position: absolute;
+    top: 8.05%;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size:cover;
+    background-image: url("frank-septillion-Qrspubmx6kE-unsplash.jpg");
+    background-repeat: round;
+    z-index:-1;
+    opacity: 0.9;
+  }
+}
+@media screen and (max-width: 1550px) {
+  div.forbackground{
+    position: absolute;
+    top: 8.05%;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size:cover;
+    background-image: url("frank-septillion-Qrspubmx6kE-unsplash.jpg");
+    background-repeat:round;
+    z-index:-1;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  div.forbackground{
+    position: absolute;
+    top: 8.05%;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size:cover;
+    background-image: url("pexels-daria-shevtsova-2029159.jpg");
+    background-repeat:round;
+    z-index:-1;
+    opacity: 0.9;
+  }
+}
+
+
+@media screen and (min-width: 1550px) {
+  div.content{
+    box-shadow: -5px -5px 14px 6px rgb(165, 165, 98), 5px 5px 14px 6px rgba(167, 106, 106, 0.788);
+    border-radius: 25px;
+    font-size: 20px;
+    margin-right: 25px;
+    padding: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    border: 1px solid #4c4d4c;
+    }
+}
+@media screen and (max-width: 1550px) {
+  div.content{
+    box-shadow: -4px -4px 12px 5px rgb(248, 247, 164), 4px 4px 12px 5px rgba(247, 142, 142, 0.788);
+    border: 2px solid #7a7a7a ;
+    margin-right: 25px;
+    border-radius: 20px;
+    font-size: 19px;
+    padding: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+  div.content{
+    box-shadow: -3px -3px 10px 4px rgb(201, 200, 134), 3px 3px 10px 4px rgba(185, 108, 108, 0.788);
+    border: 2px solid #7a7a7a ;
+    margin-right: 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  div.content{
+    box-shadow: -2px -2px 12px 5px rgb(145, 143, 77), 2px 2px 12px 5px rgba(139, 79, 79, 0.788);
+    border: 2px solid #7a7a7a ;
+    margin-right: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  div.content2{
+    margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  a.maillink{
+    text-decoration: none;
+    color: rgb(255, 243, 241);
+    font-size: 15px;
+    font-weight: 600;
+  } 
+}
+
+@media screen and (min-width: 900px) {
+  a.maillink{
+    text-decoration: none;
+    color: rgb(255, 243, 241);
+    font-size: 18px;
+    font-weight: 600;
+  } 
+}
+
+ 
+
+/***********************************************************************************/
+
+
+
+/*********************************SUPPORT US***************************************/
+
+
+
+
+
+
+/**********************************************************************************/
+
+
+
+
+/****************************************BLOG**************************************/
+
+div.containerDiv {
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 5%;
+}
+
+  @media screen and (max-width: 1600px) {
+    div.containerDiv {
+      width: 70%;
+      margin-left: 15%;
+      padding-top: 6%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+  div.containerDiv {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 8%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  div.containerDiv {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 10%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div.containerDiv {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 12%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.containerDiv {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 14%;
+  }
+}
+
+  .cardcarousel {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(219, 211, 211);
+    color: #fff;
+    font-size: 20px;
+    margin:  0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  
+  @media screen and (max-width: 970px) {
+    .cardcarousel{
+      width: 100%;
+      height: 50vh;
+    }
+}
+
+@media screen and (max-width: 910px) {
+  .cardcarousel{
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cardcarousel{
+    width: 100%;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cardcarousel{
+    width: 100%;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.containerDiv{
+    display: none;
+  }
+}
+
+  .wrapperblog{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+    padding-top: 1%;
+  }
+
+  @media screen and (max-width: 650px) {
+    .wrapperblog{
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+      padding-top: 8%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .wrapperblog{
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+      padding-top: 10%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .wrapperblog{
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+      padding-top: 14%;
+    }
+  }
+
+  @media screen and (max-width:420px) {
+    .wrapperblog{
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+      padding-top: 20%;
+    }
+  }
+
+  @media screen and (max-width:370px) {
+    .wrapperblog{
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgb(48, 48, 32),rgb(185, 181, 143) );
+      padding-top: 26%;
+    }
+  }
+
+
+  div.articles {
+    padding: 20px;
+    height: 400px;
+    width: 490px;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    transition:0.4s width;
+
+  }
+
+  div.articles:hover{
+    width: 540px;
+    box-shadow: 0 0 20px 20px rgba(226, 220, 186, 0.8);
+    cursor: pointer;
+  }
+
+  div.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 1000px) {
+      div.flexdiv{
+        flex-direction: column;
+        margin-right: 1%;
+      }
+  }
+
+  @media screen and (max-width: 1855px) {
+    div.articles{
+      height: 360px;
+      width: 485px;
+      transition:0.4s width;
+    }
+    div.articles:hover{
+      width: 490px;
+    }
+}
+
+  @media screen and (max-width: 1830px) {
+    div.articles{
+      height: 360px;
+      width: 480px;
+      transition:0.4s width;
+    }
+    div.articles:hover{
+      width: 490px;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+  div.articles{
+    height: 330px;
+    width: 450px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 465px;
+  }
+}
+
+@media screen and (max-width: 1666px) {
+  div.articles{
+    margin-right: 1%;
+    height: 300px;
+    width: 430px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 444px;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  div.articles{
+    margin-left: 7%;
+    margin-right: 1%;
+    height: 500px;
+    width: 600px;
+  }
+  div.articles:hover{
+    width: 612px;
+  }
+}
+
+@media screen and (max-width: 1474px) {
+  div.articles{
+    margin-left: 7%;
+    margin-right: 1%;
+    height: 460px;
+    width: 540px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 551px;
+  }
+}
+
+@media screen and (max-width: 1334px) {
+  div.articles{
+    margin-left: 7%;
+    margin-right: 1%;
+    height: 420px;
+    width: 500px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  div.articles{
+    margin-left: 7%;
+    margin-right: 1%;
+    height: 400px;
+    width: 470px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 480px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  div.articles{
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 450px;
+    width: 590px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 610px;
+    height: 450px;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  div.articles{
+    margin-top: 100px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 380px;
+    width: 500px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 520px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 980px) {
+  div.articles{
+    margin-top: 90px;
+    margin-left: 26%;
+    margin-right: 1%;
+    height: 350px;
+    width: 470px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 490px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  div.articles{
+    margin-top: 90px;
+    margin-left: 26%;
+    margin-right: 1%;
+    height: 320px;
+    width: 430px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 450px;
+    height: 320px; 
+  }
+}
+
+@media screen and (max-width: 870px) {
+  div.articles{
+    margin-top: 80px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 290px;
+    width: 410px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 425px;
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  div.articles{
+    margin-top: 70px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 290px;
+    width: 410px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 425px;
+    height: 290px;
+  }
+}
+@media screen and (max-width: 800px) {
+  div.articles{
+    margin-top: 70px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 280px;
+    width: 400px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 415px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 750px) {
+  div.articles{
+    margin-top: 70px;
+    margin-left: 23%;
+    margin-right: 1%;
+    height: 275px;
+    width: 400px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 415px;
+    height: 275px;
+  }
+}
+@media screen and (max-width: 700px) {
+  div.articles{
+    margin-top: 60px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 260px;
+    width: 370px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 385px;
+    height: 260px;
+  }
+}
+@media screen and (max-width: 650px) {
+  div.articles{
+    margin-top: 60px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 250px;
+    width: 340px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 355px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.articles{
+    margin-top: 50px;
+    margin-left: 24%;
+    margin-right: 1%;
+    height: 200px;
+    width: 280px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 290px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.articles{
+    margin-top: 50px;
+    margin-left: 22%;
+    margin-right: 1%;
+    height: 180px;
+    width: 270px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 280px;
+    height: 180px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  div.articles{
+    margin-top: 40px;
+    margin-left: 18%;
+    margin-right: 1%;
+    height: 180px;
+    width: 240px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 250px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  div.articles{
+    margin-top: 30px;
+    margin-left: 17%;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    height: 150px;
+    width: 200px;
+    transition:0.4s width;
+  }
+  div.articles:hover{
+    width: 210px;
+    height: 150px;
+  }
+}
+
+
+/**********************************************************************************/
+
+
+
+/************************************** MAINRANDOMSONG ****************************/
+
+
+div.mainrandomsongcontainer{
+  width: 100%;
+  background-color: #4c4d4c;
+  padding-top: 20px;
+  height: 1600px;
+
+}
+
+div.iframes{
+  /* background-color:#61dafb; */
+  display: inline-block;
+  margin-left: 100px;
+  width: 80%;
+  margin: 10px;
+  margin-left: 10%;
+  padding-left: 15%;
+  padding-top: 1%;
+}
+
+div.selectors{
+  /* background-color: antiquewhite; */
+  padding:1%;
+  padding-left: 36%;
+}
+div.shuffle{
+  /* background-color: brown; */
+  padding: 15px;
+  padding-left: 45%;
+}
+
+#mainsongspotifyiframe{
+  margin-top: 5%;
+  margin-left: 14%;
+  display: inline;
+}
+
+#relatedsongsiframesdiv{
+  background-color: burlywood;
+  margin-top: 10%;
+  margin-right: 100px;
+}
+
+iframe.relatedsongsiframe{
+  margin: 3%;
+}
+
+/**********************************************************************************/
+
